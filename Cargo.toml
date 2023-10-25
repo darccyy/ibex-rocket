@@ -1,0 +1,9 @@
+[package]
+name = "my-ibex-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = "0.5.0-rc.3"
+# ibex = { path = "../ibex" }
+ibex = { git = "https://github.com/darccyy/ibex" }
